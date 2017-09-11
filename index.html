@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Urban Yoga Dashboard - For Eliptico Work Reference</title>
+
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+a.canvasjs-chart-credit {
+	display: none;
+}
+body {
+	background: #f3f3f3;
+}
+</style>
+
+<!-- Custom styles for this template -->
+<link href="css/4-col-portfolio.css" rel="stylesheet">
+<link href="css/show-less-tr.css" rel="stylesheet">
+<link rel="stylesheet" href="vendor/bootstrap/css/font-awesome.min.css">
+<!-- Commenting the below javascript links coz they are conflicting -->
+<!--<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>-->
+<script type="text/javascript">
+		window.onload = function () {
+			
+			// Yoga Classes chart render
+			var chart = new CanvasJS.Chart("chartContainer", {
+				
+				theme: "theme2",
+				title: {
+					text: "Yoga Classes"
+				},
+				data: [{
+					type: "column",
+					dataPoints: [
+					  { label: "Jan", y: 30001 },
+					  { label: "Feb", y: 28889 },
+					  { label: "Mar", y: 39000 },
+					  { label: "Apr", y: 29084 },
+					  { label: "May", y: 29084 },
+					  { label: "Jun", y: 19080 },
+					  { label: "Jul", y: 24854 },
+					]
+				}, {
+					type: "column",
+					dataPoints: [
+					  { label: "Jan", y: 29015 },
+					  { label: "Feb", y: 26188 },
+					  { label: "Mar", y: 40100 },
+					  { label: "Apr", y: 27055 },
+					  { label: "May", y: 21055 },
+					  { label: "Jun", y: 24055 },
+					  { label: "Jul", y: 26055 },
+										]
+				}]
+			});
+			chart.render();
+			
+			// Yoga Privates chart render
+			var chart = new CanvasJS.Chart("chartContainer2", {
+				
+				theme: "theme2",
+				title: {
+					text: "Yoga Privates"
+				},
+				data: [{
+					type: "column",
+					dataPoints: [
+					  { label: "Jan", y: 19080 },
+					  { label: "Feb", y: 24854 },
+					  { label: "Mar", y: 29445 },
+					  { label: "Apr", y: 24453 },
+					  { label: "May", y: 15834 },
+					  { label: "Jun", y: 23898 },
+					  { label: "Jul", y: 32010 },
+					]
+				}, {
+					type: "column",
+					dataPoints: [
+					  { label: "Jan", y: 24055 },
+					  { label: "Feb", y: 26055 },
+					  { label: "Mar", y: 28455 },
+					  { label: "Apr", y: 24000 },
+					  { label: "May", y: 12005 },
+					  { label: "Jun", y: 22511 },
+					  { label: "Jul", y: 28515 },
+										]
+				}]
+			});
+			chart.render();
+			
+			
+			// Yoga Duets Chart Render
+			var chart = new CanvasJS.Chart("chartContainer3", {
+				
+				theme: "theme2",
+				title: {
+					text: "Yoga Duets"
+				},
+				data: [{
+					type: "column",
+					dataPoints: [
+					  { label: "Jan", y: 30001 },
+					  { label: "Feb", y: 28889 },
+					  { label: "Mar", y: 39000 },
+					  { label: "Apr", y: 29084 },
+					  { label: "May", y: 29084 },
+					  { label: "Jun", y: 19080 },
+					  { label: "Jul", y: 24854 },
+					]
+				}, {
+					type: "column",
+					dataPoints: [
+					  { label: "Jan", y: 29015 },
+					  { label: "Feb", y: 26188 },
+					  { label: "Mar", y: 40100 },
+					  { label: "Apr", y: 27055 },
+					  { label: "May", y: 21055 },
+					  { label: "Jun", y: 24055 },
+					  { label: "Jul", y: 26055 },
+										]
+				}]
+			});
+			chart.render();
+			
+			// Open Practice chart render
+			var chart = new CanvasJS.Chart("chartContainer4", {
+				
+				theme: "theme2",
+				title: {
+					text: "Open Practice"
+				},
+				
+				data: [{
+					type: "column",
+					dataPoints: [
+					  { label: "Jan", y: 30001 },
+					  { label: "Feb", y: 28889 },
+					  { label: "Mar", y: 39000 },
+					  { label: "Apr", y: 29084 },
+					  { label: "May", y: 29084 },
+					  { label: "Jun", y: 19080 },
+					  { label: "Jul", y: 24854 },
+					]
+				}, {
+					type: "column",
+					dataPoints: [
+					  { label: "Jan", y: 29015 },
+					  { label: "Feb", y: 26188 },
+					  { label: "Mar", y: 40100 },
+					  { label: "Apr", y: 27055 },
+					  { label: "May", y: 21055 },
+					  { label: "Jun", y: 24055 },
+					  { label: "Jul", y: 26055 },
+										]
+				}]
+			});
+			chart.render();
+			
+			
+			// Yoga Videos chart render
+			var chart = new CanvasJS.Chart("chartContainer5", {
+				
+				theme: "theme2",
+				title: {
+					text: "Yoga Videos"
+				},
+				data: [{
+					type: "column",
+					dataPoints: [
+					  { label: "Jan", y: 30001 },
+					  { label: "Feb", y: 28889 },
+					  { label: "Mar", y: 39000 },
+					  { label: "Apr", y: 29084 },
+					  { label: "May", y: 29084 },
+					  { label: "Jun", y: 19080 },
+					  { label: "Jul", y: 24854 },
+					]
+				}, {
+					type: "column",
+					dataPoints: [
+					  { label: "Jan", y: 29015 },
+					  { label: "Feb", y: 26188 },
+					  { label: "Mar", y: 40100 },
+					  { label: "Apr", y: 27055 },
+					  { label: "May", y: 21055 },
+					  { label: "Jun", y: 24055 },
+					  { label: "Jul", y: 26055 },
+										]
+				}]
+			});
+			chart.render();
+			
+			
+			
+		
+		}
+	</script>
+    <!--- commenting the code for linegraphs-->
+<!--<script type="text/javascript">
+$(function () {
+	//Better to construct options first and then pass it as a parameter
+	var options = {
+		title: {
+			text: ""
+		},
+                animationEnabled: true,
+		data: [
+		{
+			type: "spline", //change it to line, area, column, pie, etc
+			dataPoints: [
+				{ x: 10, y: 10 },
+				{ x: 20, y: 12 },
+				{ x: 30, y: 8 },
+				{ x: 40, y: 14 },
+				{ x: 50, y: 6 },
+				{ x: 60, y: 24 },
+				{ x: 70, y: -4 },
+				{ x: 80, y: 10 }
+			]
+		}
+		]
+	};
+
+	$("#chartContainerline").CanvasJSChart(options);
+
+});
+</script>-->
+
+<script src="canvasjs.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container"> <a class="navbar-brand" href="index.html"><img src="logo.png" alt="logo"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active" > <a class="nav-link" class="dropdown-toggle" data-toggle="dropdown" href="#">Dashboard <span class="sr-only">(current)</span> </a>
+          <ul class="dropdown-menu show">
+            <div class="container">
+              <li class="nav-item"><a href="index.html">Dashboard</a></li>
+              <li class="nav-item"><a href="#" class="active">Business Overview</a></li>
+              <li class="nav-item"><a href="#">Schedule</a></li>
+              <li class="nav-item"><a href="#">Reports</a></li>
+            </div>
+          </ul>
+        </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Signin</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Classes</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Workshops</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Appointments </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Client Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Retail</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container"> 
+  
+  <!-- Page Heading -->
+  <div class="padding-top-2x"></div>
+  <h1 class="my-4">Business Overview 
+    <!-- <small>Secondary Text</small>--> 
+  </h1>
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+      <div class="card h-100"> <a href="#"><i class="fa fa-plus"></i></a>
+        <h4 class="card-title smaller"> <a href="#">New Program</a> </h4>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+      <div class="charts">
+        <div id="chartContainer" style="height: 250px; width: 100%;"></div>
+        <div class="info">
+          <div class="tms">Total Monthly Sales</div>
+          <div class="curen"><span class="light">Current</span> $23483 </div>
+          <div class="1-year"><span class="light">1-Year</span>
+            <div class="line-chart-main1">
+              <div id="chartContainerline" style="height: auto; width: 100%;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="show-data">
+          <ul class="show-hide">
+            <li class="container">
+              <input type="checkbox" id="check_id">
+              <label for="check_id"></label>
+              <ul class="show-hide">
+                <li><a href="#"><span class="head1">Price Name</span><span class="head1">Current</span><span class="head1">1-Year</span></a></li>
+                <li><a href="#"><span class="subhead1">Monthly Unlimited</span><span class="subhead1">4260</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Student 1 Month</span><span class="subhead1">1750</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Single Visit</span><span class="subhead1">560</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">10 Class Pass</span><span class="subhead1">475</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Student Single Visit</span><span class="subhead1">445</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">20 Class Pass</span><span class="subhead1">230</span><span class="subhead1">linegraph</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+      <div class="charts">
+        <div id="chartContainer2" style="height: 250px; width: 100%;"></div>
+        <div class="info">
+          <div class="tms">Total Monthly Sales</div>
+          <div class="curen"><span class="light">Current</span> $23483 </div>
+          <div class="1-year"><span class="light">1-Year</span>
+            <div class="line-chart-main1"></div>
+          </div>
+        </div>
+        <div class="show-data">
+          <ul class="show-hide">
+            <li class="container">
+              <input type="checkbox" id="check_id1">
+              <label for="check_id1"></label>
+              <ul class="show-hide">
+                <li><a href="#"><span class="head1">Price Name</span><span class="head1">Current</span><span class="head1">1-Year</span></a></li>
+                <li><a href="#"><span class="subhead1">Monthly Unlimited</span><span class="subhead1">4260</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Student 1 Month</span><span class="subhead1">1750</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Single Visit</span><span class="subhead1">560</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">10 Class Pass</span><span class="subhead1">475</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Student Single Visit</span><span class="subhead1">445</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">20 Class Pass</span><span class="subhead1">230</span><span class="subhead1">linegraph</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+      <div class="charts">
+        <div id="chartContainer3" style="height: 250px; width: 100%;"></div>
+        <div class="info">
+          <div class="tms">Total Monthly Sales</div>
+          <div class="curen"><span class="light">Current</span> $23483 </div>
+          <div class="1-year"><span class="light">1-Year</span>
+            <div class="line-chart-main1"></div>
+          </div>
+        </div>
+        <div class="show-data">
+          <ul class="show-hide">
+            <li class="container">
+              <input type="checkbox" id="check_id2">
+              <label for="check_id2"></label>
+              <ul class="show-hide">
+                <li><a href="#"><span class="head1">Price Name</span><span class="head1">Current</span><span class="head1">1-Year</span></a></li>
+                <li><a href="#"><span class="subhead1">Monthly Unlimited</span><span class="subhead1">4260</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Student 1 Month</span><span class="subhead1">1750</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Single Visit</span><span class="subhead1">560</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">10 Class Pass</span><span class="subhead1">475</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Student Single Visit</span><span class="subhead1">445</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">20 Class Pass</span><span class="subhead1">230</span><span class="subhead1">linegraph</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item"> </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+      <div class="charts">
+        <div id="chartContainer4" style="height: 250px; width: 100%;"></div>
+        <div class="info">
+          <div class="tms">Total Monthly Sales</div>
+          <div class="curen"><span class="light">Current</span> $23483 </div>
+          <div class="1-year"><span class="light">1-Year</span>
+            <div class="line-chart-main1"></div>
+          </div>
+        </div>
+        <div class="show-data">
+          <ul class="show-hide">
+            <li class="container">
+              <input type="checkbox" id="check_id3">
+              <label for="check_id3"></label>
+              <ul class="show-hide">
+                <li><a href="#"><span class="head1">Price Name</span><span class="head1">Current</span><span class="head1">1-Year</span></a></li>
+                <li><a href="#"><span class="subhead1">Monthly Unlimited</span><span class="subhead1">4260</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Student 1 Month</span><span class="subhead1">1750</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Single Visit</span><span class="subhead1">560</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">10 Class Pass</span><span class="subhead1">475</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Student Single Visit</span><span class="subhead1">445</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">20 Class Pass</span><span class="subhead1">230</span><span class="subhead1">linegraph</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+      <div class="charts">
+        <div id="chartContainer5" style="height: 250px; width: 100%;"></div>
+        <div class="info">
+          <div class="tms">Total Monthly Sales</div>
+          <div class="curen"><span class="light">Current</span> $23483 </div>
+          <div class="1-year"><span class="light">1-Year</span>
+            <div class="line-chart-main1"></div>
+          </div>
+        </div>
+        <div class="show-data">
+          <ul class="show-hide">
+            <li class="container">
+              <input type="checkbox" id="check_id4">
+              <label for="check_id4"></label>
+              <ul class="show-hide">
+                <li><a href="#"><span class="head1">Price Name</span><span class="head1">Current</span><span class="head1">1-Year</span></a></li>
+                <li><a href="#"><span class="subhead1">Monthly Unlimited</span><span class="subhead1">4260</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Student 1 Month</span><span class="subhead1">1750</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Single Visit</span><span class="subhead1">560</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">10 Class Pass</span><span class="subhead1">475</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">Student Single Visit</span><span class="subhead1">445</span><span class="subhead1">linegraph</span></a></li>
+                <li><a href="#"><span class="subhead1">20 Class Pass</span><span class="subhead1">230</span><span class="subhead1">linegraph</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row --> 
+  
+</div>
+<!-- /.container --> 
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Urban Yoga 2017</p>
+  </div>
+  <!-- /.container --> 
+</footer>
+
+<!-- Bootstrap core JavaScript --> 
+<script src="vendor/jquery/jquery.min.js"></script> 
+<script src="vendor/popper/popper.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
